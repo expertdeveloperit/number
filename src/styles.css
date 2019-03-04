@@ -1,1 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background: url('./assets/images/Game_mnemonic_Background.svg') no-repeat center center;
+  background-size: 100%;
+}
