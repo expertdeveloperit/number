@@ -24,7 +24,7 @@ export class AppComponent {
     };
     this.bgBlur = true;
     this.httpClient
-      .post('http://dev-lb-891765181.ap-southeast-1.elb.amazonaws.com:8080/api/admin/winners/select', campaignData)
+      .post('Https://live.paymasterapp.com/api/admin/winners/select', campaignData)
       .subscribe(
         data => {
           const res = JSON.parse(JSON.stringify(data));
